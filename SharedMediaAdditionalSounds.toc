@@ -7,7 +7,7 @@
 ## X-Category: Audio & Video
 ## X-eMail: addon (a) stassart o org
 ## X-Website: http://www.curse.com/addons/wow/sharedmediaadditionalsounds
-## X-Credits: pb_ee1
+## X-Credits: AllInOneMighty
 ## LoadOnDemand: 0
 
 #@no-lib-strip@
