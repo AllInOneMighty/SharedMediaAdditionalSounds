@@ -1,4 +1,4 @@
-## Interface: 90005
+## Interface: 100206
 ## Title: SharedMediaAdditionalSounds
 ## Notes: Inserts additionnal sounds into SharedMediaLib's storage.
 ## Version: @project-version@
