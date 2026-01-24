@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 20505
 ## Title: SharedMedia Additional Sounds
 ## Category: Media
 ## Category-deDE: Medien
@@ -26,4 +26,3 @@ Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
 #@end-no-lib-strip@
 
 SharedMediaAdditionalSounds.lua
-
