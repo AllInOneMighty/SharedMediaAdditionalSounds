@@ -18,27 +18,25 @@ If you edit this file, be careful not to overwrite it when you update this addon
 
 -- registrations for media from the client itself belongs in LibSharedMedia-3.0
 
-if not SharedMediaAdditionalSounds then return end
-local revision = tonumber(string.sub("$Revision: 63551 $", 12, -3))
-SharedMediaAdditionalSounds.revision = (revision > SharedMediaAdditionalSounds.revision) and revision or SharedMediaAdditionalSounds.revision
+local LSM = LibStub("LibSharedMedia-3.0", true)
 
 -- -----
 -- SOUND
 -- -----
-SharedMediaAdditionalSounds:Register("sound", "Bell Toll Alliance", 566564)
-SharedMediaAdditionalSounds:Register("sound", "Bell Toll Horde", 565853)
-SharedMediaAdditionalSounds:Register("sound", "Auction Window Close", 567499)
-SharedMediaAdditionalSounds:Register("sound", "Quest Failed", 567459)
-SharedMediaAdditionalSounds:Register("sound", "Fel Nova", 568582)
-SharedMediaAdditionalSounds:Register("sound", "Bad Press", 568975)
-SharedMediaAdditionalSounds:Register("sound", "Simon Large Blue", 566076)
-SharedMediaAdditionalSounds:Register("sound", "Simon Small Blue", 567002)
-SharedMediaAdditionalSounds:Register("sound", "Portcullis Close", 566240)
-SharedMediaAdditionalSounds:Register("sound", "Run Away", 552035)
-SharedMediaAdditionalSounds:Register("sound", "PvP Flag Taken", 569200)
-SharedMediaAdditionalSounds:Register("sound", "Arcane Crystal", 565425)
-SharedMediaAdditionalSounds:Register("sound", "Bellow Out", 565530)
-SharedMediaAdditionalSounds:Register("sound", "Cannon", 566101)
-SharedMediaAdditionalSounds:Register("sound", "Firework 3", 566862)
-SharedMediaAdditionalSounds:Register("sound", "Alarm Clock Warning 2", 567399)
+LSM:Register("sound", "Bell Toll Alliance", 566564)
+LSM:Register("sound", "Bell Toll Horde", 565853)
+LSM:Register("sound", "Auction Window Close", 567499)
+LSM:Register("sound", "Quest Failed", 567459)
+LSM:Register("sound", "Fel Nova", 568582)
+LSM:Register("sound", "Bad Press", 568975)
+LSM:Register("sound", "Simon Large Blue", 566076)
+LSM:Register("sound", "Simon Small Blue", 567002)
+LSM:Register("sound", "Portcullis Close", 566240)
+LSM:Register("sound", "Run Away", 552035)
+LSM:Register("sound", "PvP Flag Taken", 569200)
+LSM:Register("sound", "Arcane Crystal", 565425)
+LSM:Register("sound", "Bellow Out", 565530)
+LSM:Register("sound", "Cannon", 566101)
+LSM:Register("sound", "Firework 3", 566862)
+LSM:Register("sound", "Alarm Clock Warning 2", 567399)
 

@@ -17,10 +17,13 @@
 ## IconTexture: Interface\Icons\inv_11_0_arathordungeon_bell_color1
 ## X-Category: Audio & Video
 ## X-Credits: Stassart
-## OptionalDeps: LibSharedMedia-3.0, LibSharedMedia-2.0, SharedMediaLib
+## OptionalDeps: LibSharedMedia-3.0
 
+#@no-lib-strip@
 Libs\LibStub\LibStub.lua
 
-Core.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+#@end-no-lib-strip@
+
 SharedMediaAdditionalSounds.lua
 
